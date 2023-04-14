@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="MultipleTesting" thread-count="5" parallel="tests">
+<test name="RegressionTest">
+<classes>
+<class name="TestNGPrograms.radiobutton"></class>
+</classes>
+</test>
+<test name="performanceTest">
+<classes>
+<class name="TestNGPrograms.WindowSwitchingExample">
+</class>
+</classes>
+</test>
+</suite>
